@@ -1,3 +1,69 @@
 h1 {
+  font-family: sans-serif;
+  font-size: 40px;
   color: blue;
+  padding-top: 30px;
+}
+
+.box {
+  position: relative;
+  /*     top right bot left */
+  margin:50px 50px 50px 50px;
+  box-shadow: 10px 10px 5px #888888;
+  /* float: right;
+  padding-right: 1em; */
+  width: 1200px;
+  height: 550px;
+  /* padding: 20px; */
+  /* text-align: left; */
+  /* top: 100px; */
+  /* left: 100px; */
+  /* background-color: red; */
+  text-align: center;
+  background:
+  	linear-gradient(
+  		limegreen,
+  		transparent
+  	)
+}
+
+.textbox1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.textbox2 {
+  font-size: 70px;
+  text-align: center;
+  background-color: white;
+}
+
+.textbox2 .burn {
+  background-color: red;
+}
+.textbox2 .freeze {
+  background-color: blue;
+}
+
+.button {
+  background-color: Red; /* #4CAF50; */ /* Green */
+  border: none;
+  color: red;   /* white; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#output {
+  position: relative;
+  width: 1100px;
+  height: 150px;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  margin:50px 50px 50px 50px;
+  background-color: red; 
+  padding-top: 55px;
 }

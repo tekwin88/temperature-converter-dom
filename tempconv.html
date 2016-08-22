@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <div class="box">
+    <h1>Temperature Converter</h1>
+    <div>
+      <input id="input" class="textbox1" type="number" placeholder="enter a number"/>
+    </div>
+
+    <div>
+      <form action="">
+        <label>
+          <input id="temptype" type="radio" name="select" value="F"> &#8457 <!-- deg F -->
+        </label>
+        <label>
+          <input id="temptype" type="radio" name="select" value="C"> &#8451  <!-- deg C -->
+        </label>
+      </form>
+    </div>
+    <div>
+      <label>
+        <button id="submit">Submit</button>
+      </label>
+      <label>
+        <button id="clear">Clear</button>
+      </label>
+    </div>
+    <div>
+      <p id="output" class="textbox2" type="text" value="outMessage">
+      </p>
+    </div>
+  </div>
+  <!-- The javascript is placed at the bottom so that to ensure that all the DOM content are loaded before the execution of the javascript -->
+  <script type="text/javascript" src="js/tempconv.js"></script>
+</body>
+</html>
